@@ -1,0 +1,12 @@
+curl --request GET \
+     --url http://api.blokness.io/nfts/0xf54cc94f1f2f5de012b6aa51f1e7ebdc43ef5afc/3573 \
+     --header 'accept: application/json' \
+     --header 'x-api-key: 0B9BF5C3-5589-4006-94B7-7944F65A2E05'
+curl --request GET \
+     --url 'http://api.blokness.io/nfts?wallet=0x0F045a0D77D24c326316E0315354E7Df28B4aC50&collection=0xf54cc94f1f2f5de012b6aa51f1e7ebdc43ef5afc&sort=trade_size_desc&limit=10' \
+     --header 'accept: application/json' \
+     --header 'x-api-key: 0B9BF5C3-5589-4006-94B7-7944F65A2E05'
+     curl --request GET \
+     --url 'http://api.blokness.io/nfts?wallet=0xEd98524488d0ABBef964B0EA675c01382cA9CD6f&limit=10' \
+     --header 'accept: application/json' \
+     --header 'x-api-key: 0B9BF5C3-5589-4006-94B7-7944F65A2E05'
